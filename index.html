@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aastha Singh | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="container">
+      <h1 class="logo">Aastha Singh</span></h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <img src="portfolioimage.jpg" alt="Portfolio Image" style="width: 290px;height: 290px;border-radius: 50%;">
+      <h2>Hello, I’m <span class="typing"></span></h2>
+      <p>Computer Science Student | Developer | Future Pilot ✈️</p>
+      <a href="resume.pdf" class="btn">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container section">
+    <h2 style="background-color: rgb(215, 209, 237);font-size: 40px;">About Me</h2>
+    <p style="text-align: center;font-size: 20px;background-color:lightgray;">
+      I am Aastha Singh, a 3rd-year Computer Science Engineering student at Pimpri Chinchwad University with a keen interest in Web Development, Artificial Intelligence, and Machine Learning. I enjoy learning new technologies and building projects that combine creativity with problem-solving. Over the past few years, I have strengthened my knowledge of C, C++, Java, and Python, while also exploring modern web technologies. My goal is to start my career as a skilled software developer, gain industry experience, and work on innovative solutions that make an impact. Beyond technology, I carry a lifelong dream of becoming a Commercial Pilot, and I am determined to pursue it once I establish myself in the tech industry. I believe in hard work, continuous learning, and the power of resilience to achieve big dreams.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section bg-light">
+    <h2 style="font-size:40px ;">Skills</h2>
+    <div class="skills-grid container">
+      <div class="skill">C</div>
+      <div class="skill">C++</div>
+      <div class="skill">Java</div>
+      <div class="skill">Python</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">AI/ML (Beginner)</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container section">
+    <h2 style="font-size:40px ;">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Weather Notification App</h3>
+        <p>A Python desktop app that notifies weather updates.</p>
+        <a href="https://github.com/yourusername/project-link" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>This personal portfolio website built with HTML, CSS, JS.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section bg-dark">
+    <h2>Contact Me</h2>
+    <form id="contactForm" class="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Aastha Singh. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
